@@ -26,7 +26,7 @@
 		1B1A692E20F7010C00CC41B5 /* Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
 		1B1F652620F5F3060003DAF6 /* Basic Practice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basic Practice.h"; sourceTree = "<group>"; };
 		1B1F652720F5F4810003DAF6 /* Medium Practice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Medium Practice.h"; sourceTree = "<group>"; };
-		1B39E73C20F733FD008C521E /* Trade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trade.h; sourceTree = "<group>"; };
+		1B4DC67A20F9D41D00203782 /* Hard Practice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hard Practice.h"; sourceTree = "<group>"; };
 		1BDBCB3C20F2E11D00AC2C8D /* Fundamental Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fundamental Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDBCB3F20F2E11D00AC2C8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,9 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				1BDBCB3F20F2E11D00AC2C8D /* main.cpp */,
-				1B39E73C20F733FD008C521E /* Trade.h */,
 				1B1F652620F5F3060003DAF6 /* Basic Practice.h */,
 				1B1F652720F5F4810003DAF6 /* Medium Practice.h */,
+				1B4DC67A20F9D41D00203782 /* Hard Practice.h */,
 				1B1A692E20F7010C00CC41B5 /* Value.h */,
 			);
 			path = "Fundamental Practice";

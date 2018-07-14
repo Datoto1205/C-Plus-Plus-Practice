@@ -19,7 +19,6 @@ void helloWorld() {
 }
 // I could use "cout" to print things in the console, and I could use "<<" to seperate string and the variables.
 // If we use "\n" to change the row, some bugs would occur when our codes were more complex. Therefore, I had better used it only in C, and I should use "endl" in the end of each row instead.
-#endif /* Basic_Practice_h */
 
 
 
@@ -297,3 +296,7 @@ int volumeOfACuboid(int lendOfOneSide) {
     return lendOfOneSide*lendOfOneSide*lendOfOneSide;
 }
 // We could declare two functions with the same name. However, the parameters of functions should be different so that the system could distinguish which function should it use. This mechanism is called "overloaded function".
+
+
+
+#endif /* Basic_Practice_h */
