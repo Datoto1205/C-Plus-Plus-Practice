@@ -1,9 +1,22 @@
-//
+
 //  Basic Practice.h
-//  Fundamental Practice
 //
-//  Created by 李政恩 on 11/07/2018.
+//  Created by Li Cheng-En on 2018.
+//  Copyright © 2018 Li Cheng-En. All rights reserved.
 //
+//  ---------------------<Outline>---------------------
+//  Hello World                                 <Row >
+//  Declaration                                 <Row >
+//  Type of Variables                           <Row >
+//  % & Change The Type of Variable             <Row >
+//  Ask User to Type the Data & If              <Row >
+//  For-loop                                    <Row >
+//  Switch & True and False                     <Row >
+//  Array with Single Dimension                   <Row >
+//  Array with Two-dimensions                     <Row >
+//  Vector (1)                                   <Row >
+//  String                                       <Row >
+//  Parameters & Overloaded Function               <Row >
 
 #ifndef Basic_Practice_h
 #define Basic_Practice_h

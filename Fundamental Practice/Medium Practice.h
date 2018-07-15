@@ -1,9 +1,18 @@
-//
+
 //  Medium Practice.h
-//  Fundamental Practice
 //
-//  Created by 李政恩 on 11/07/2018.
+//  Created by Li Cheng-En on 2018.
+//  Copyright © 2018 Li Cheng-En. All rights reserved.
 //
+//  ---------------------<Outline>---------------------
+//  Array of Character                         <Row >
+//  Declaration of Pointer                      <Row >
+//  Calculation of Pointer                      <Row >
+//  Array and Pointer                         <Row >
+//  New & Delete & Pointer                       <Row >
+//  STL idiom Vector                          <Row >
+//  Return                                   <Row >
+//  Import An Array                               <Row >
 
 #ifndef Medium_Practice_h
 #define Medium_Practice_h

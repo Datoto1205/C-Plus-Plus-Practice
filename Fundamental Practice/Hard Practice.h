@@ -1,9 +1,12 @@
-//
+
 //  Hard Practice.h
-//  Fundamental Practice
 //
-//  Created by 李政恩 on 14/07/2018.
+//  Created by Li Cheng-En on 2018.
+//  Copyright © 2018 Li Cheng-En. All rights reserved.
 //
+//  ---------------------<Outline>---------------------
+//  Auto PTR                            <Row >
+//  Enumeration                                  <Row >
 
 #ifndef Hard_Practice_h
 #define Hard_Practice_h
