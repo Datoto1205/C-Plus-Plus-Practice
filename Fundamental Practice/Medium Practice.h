@@ -17,8 +17,6 @@
 #ifndef Medium_Practice_h
 #define Medium_Practice_h
 
-using namespace std;
-
 
 
 // Array of Character
@@ -47,11 +45,11 @@ void getAndCin() {
     cout << "Your hometwon is " << myHometown << endl;
     cout << endl;
 }
-// I need to initialize the character in the begining, and I could not declare a null character array without length.
-// After my complete declaration, I could not edit the character array afterward.
-// strcpy() function could be used to copy some characters into another character array, and strcat() function could be used to append/add some characters to the end of another character array.
-// strlen() function could be used to fetch the length of an character array.
-// cin() and gets() functions could both be used to ask user type data, but the later one is not safe. Avoid to use it if you did not want to get any warning.
+// 1. I need to initialize the character in the beginning, and I could not declare a null character array without length.
+// 2. After my complete declaration, I could not edit the character array afterward.
+// 3. strcpy() function could be used to copy some characters into another character array, and strcat() function could be used to append/add some characters to the end of another character array.
+// 4. strlen() function could be used to fetch the length of a character array.
+// 5. cin() and gets() functions could both be used to ask user type data, but the latter one is not safe. Avoid to use it if you did not want to get any warning.
 
 
 
@@ -79,7 +77,7 @@ void declarePointer() {
 // 1. I could use "&" to fetch the address of the variable in the memory.
 // 2. I could use "*" to get the real value of an address of the memory.
 // 3. "*&variable" equal to "variable".
-// 4. During the declaration of variables, when we use "*", it means that the variable we want to declare is a pointer of variable, a kind of variable which store the address.
+// 4. During the declaration of variables, when we use "*", it means that the variable we want to declare is a pointer of variable, a kind of variable which could store the address.
 // 5. After we finish the declaration of pointer of variable, when we used "*" again, it means that we want to fetch the original value of the variable instead of the address of that variable.
 // 6. If we use "const" to declare a variable as a constant variable, it means that we could not change its value anymore. Moreover, we also could not fetch its address, too. In order to solve this problem, we need to declare another constant pointer variable.
 
@@ -98,7 +96,7 @@ void CalculationOfPointer() {
     cout << &smallDouble + 1 << endl;
     cout << &smallDouble - 1 << endl;
 }
-//  We also could calculate the address of data. However, one unit would equal to different byte in memory. For example, one unit equal to 4 bytes if we do the calculation to a integer; but this result would be changed to 8 bytes if the target of our calculation is a double.
+//  We also could calculate the address of data. However, one unit would equal to different byte in memory. For example, one unit equal to 4 bytes if we do the calculation to an integer; but this result would be changed to 8 bytes if the target of our calculation is a double.
 
 
 
@@ -141,10 +139,10 @@ void applicationOfNewAndDeleteAndPointer() {
     cout << endl;
     delete [] innovativeArray;
 }
-// 1. I could use "new typeOfData" to create a area with specific type of data in the memory. The type of this area is an address. For now, the value of this area is 0. Afterward, I could assign new value to this area.
+// 1. I could use "new typeOfData" to create an area with a specific type of data in the memory. The type of this area is an address. For now, the value of this area is 0. Afterward, I could assign a new value to this area.
 // 2. Use "*" on pointer could extract its value.
 // 3. After we used a variable, and if we did not need it anymore, we should use "delete nameOfPointer" to delete this variable and release more area in the memory.
-// 4. We not only could apply the idea of new & delete on general variable, but we also could do it on array.
+// 4. We not only could apply the idea of new & delete on the general variable, but we also could do it on the array.
 
 
 
@@ -196,8 +194,6 @@ int *returnPointerOfInteger(int theNumberOfEraserYouHave) {
     int *thePointerOftheNumberOfEraserYouHave = &theNumberOfEraserYouHave + 1;
     
     return thePointerOftheNumberOfEraserYouHave;
-    
-    
 }
 
 string createAString() {
@@ -211,10 +207,9 @@ void useTheString() {
     fetchTheString = createAString();
     
     cout << "\nThe address of this new string is: " << &fetchTheString;
-    
 }
 // 1. A function could not only return general variable, but it also could return a pointer, the prerequisite is that I need to use "*" to declare this function as a pointer function.
-// 2. When we use a variable in the function after another function return a variable, the address of the variable would changed.
+// 2. When we use a variable in the function after another function returns a variable, the address of the variable would be changed.
 
 
 
@@ -237,5 +232,7 @@ void importAnArray(int* parameterArray) {
     cout << endl;
 }
 // If I want to import an array into my function, the first thing I need to do is to use pointer to create an array. Afterward, I also need to use pointer as the parameter of the function which I want to import an array into.
+
+
 
 #endif /* Medium_Practice_h */

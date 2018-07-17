@@ -11,6 +11,8 @@
 #ifndef Hard_Practice_h
 #define Hard_Practice_h
 
+
+
 // Auto PTR
 void practiceAutoPTR() {
     auto_ptr<int> PTRInteger (new int(50));
@@ -42,5 +44,7 @@ void practiceUseTheEnum() {
 }
 // 1. We could use enum to declare several variables beforehand.
 // 2. After we declared the enum, we could use "nameOfEnum newName = elementInTheEnum" to fetch the element in the enum.
+
+
 
 #endif /* Hard_Practice_h */

@@ -30,8 +30,8 @@ void helloWorld() {
     cout << "Hello World!" << endl;
     cout << "Hello World and Change the row! \n" << endl;
 }
-// I could use "cout" to print things in the console, and I could use "<<" to seperate string and the variables.
-// If we use "\n" to change the row, some bugs would occur when our codes were more complex. Therefore, I had better used it only in C, and I should use "endl" in the end of each row instead.
+// 1. I could use "cout" to print things in the console, and I could use "<<" to separate string and the variables.
+// 2. If we use "\n" to change the row, some bugs would occur when our codes were more complex. Therefore, I had better use it only in C, and I should use "endl" at the end of each row instead.
 
 
 
@@ -52,8 +52,8 @@ void declaration() {
     cout << "Chimera had " << numberOfMyHead << " heads instead!" << endl;
     //pi = 5;   /* Activate this code would occur warning! */
 }
-// I could use several ways to declare the variables, but the way is similar to that in C.
-// If I use "const" during the declaration, it means that I could not change its value afterward.
+// 1. I could use several ways to declare the variables, but the way is similar to that in C.
+// 2. If I use "const" during the declaration, it means that I could not change its value afterward.
 
 
 
@@ -81,9 +81,9 @@ void fetchTheRemainderAndChangeTheTypeOfVariable() {
     randomNumberBetweenOneAndOneHundred = verySmallNumber % 100;
     cout << randomNumberBetweenOneAndOneHundred << endl;
 }
-// % could be used to get the remainder.
-// "static_cast<target type>(original number)" function could be used to change the type of variable.
-// The number could not excess 2147483647, or bugs would occur.
+// 1. % could be used to get the remainder.
+// 2. "static_cast<target type>(original number)" function could be used to change the type of variable.
+// 3. The number could not excess 2147483647, or bugs would occur.
 
 
 
@@ -117,7 +117,7 @@ void cinAndIf() {
         cout << "You had better earn more money!" << endl;
     }
 }
-// "cin >>" could be used to ask uers to type some data. Fortunately, I did not need to assign the type of variable anymore.
+// "cin >>" could be used to ask users to type some data. Fortunately, I did not need to assign the type of variable anymore.
 
 
 
@@ -160,8 +160,8 @@ void PracticeHowToUseSwitchAndBool() {
     cout << (numberOfPeopleInMyFamily > 3) << endl;
     cout << (numberOfPeopleInMyFamily >=4 ? "Boisterous" : "Slient") << endl;
 }
-// In C++, true would return 1, and false would return 0.
-// "(condition ? the result of true : the result of false)" could be use to simplify if-loop.
+// 1. In C++, true would return 1, and false would return 0.
+// 2. "(condition ? the result of true : the result of false)" could be used to simplify if-loop.
 
 
 
@@ -174,7 +174,7 @@ void declarationOfArray() {
     
     integerArray[0] = 12;
     cout << integerArray[0] << endl;
-    cout << sizeof(doubleArray) / sizeof(doubleArray[0]) << endl; /* If we did not declare the number of array in the begining, we could use this way to calculate the number of elements in an array. */
+    cout << sizeof(doubleArray) / sizeof(doubleArray[0]) << endl; /* If we did not declare the number of array in the beginning, we could use this way to calculate the number of elements in an array. */
 }
 
 
@@ -237,7 +237,6 @@ void PracticeHowToUseVector() {
     
     
     
-    
     int JohnIntegerArray[] ={1, 2, 3, 4, 5};
     vector<int> JohnIntegerVector(JohnIntegerArray+1, JohnIntegerArray+5);   /* Assign the elements of vector from an array. */
     vector<int> CindyIntegerVector;   /* Declare a null vector. */
@@ -252,10 +251,10 @@ void PracticeHowToUseVector() {
         cout << JohnIntegerArray[n] << "\t";
     }
 }
-// I need to type "#include <vector>" first.
-// I coule type "vector<type> nameOfVector(numberOfElements, eachInitialElement)" to declare a vector, "eachInitialElement" is optional.
-// I could use ".size()" function to fetch the length of vector.
-// I could assign the elements of vector from an array & declare a null vector & assign the elements of vector from another vector in C++.
+// 1. I need to type "#include <vector>" first.
+// 2. I coule type "vector<type> nameOfVector(numberOfElements, eachInitialElement)" to declare a vector, "eachInitialElement" is optional.
+// 3. I could use ".size()" function to fetch the length of vector.
+// 4. I could assign the elements of vector from an array & declare a null vector & assign the elements of vector from another vector in C++.
 
 
 
@@ -288,15 +287,15 @@ void practiceHowToUseString() {
     cout << firstString.insert(7, "indy, ") << endl;
     cout << firstString.insert(18, "e another girl! ") << endl;
 }
-// I need to type "#include <string>" first.
-// String is a different kinf of type of data in C++, it could be used to store several words.
-// String could be assigned new value & string directly, and we also could assigned some characters from the array of character to a string. However, we could not assign new data from string to the array of character. Therefore, I had better use string instead of char[].
-// We also could declare a null string.
-// We could use "stringName[i]" to extract particular character from the string.
-// .assign() function could be used to create string from another string.
-// .append() function could be used to append/add new string in the end of original string.
-// .find() function could be used to find a particular characters in the original string, and it would return the order which the function found.
-// .insert() function could be used to append/add new string in the particular place of original string.
+// 1. I need to type "#include <string>" first.
+// 2. String is a different kind of type of data in C++, it could be used to store several words.
+// 3. String could be assigned new value & string directly, and we also could assign some characters from the array of character to a string. However, we could not assign new data from string to the array of character. Therefore, I had better use string instead of char[].
+// 4. We also could declare a null string.
+// 5. We could use "stringName[i]" to extract the particular character from the string.
+// 6. .assign() function could be used to create string from another string.
+// 7. .append() function could be used to append/add new string in the end of original string.
+// 8. .find() function could be used to find a particular character in the original string, and it would return the order which the function found.
+// 9. .insert() function could be used to append/add new string in the particular place of original string.
 
 
 
