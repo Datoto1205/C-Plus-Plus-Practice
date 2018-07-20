@@ -1,15 +1,17 @@
-//
+
 //  reverse String.h
 //  LeetCode Practice Report in C++
 //
-//  Created by 李政恩 on 18/07/2018.
-//  Copyright © 2018 李政恩. All rights reserved.
+//  Created by Li Cheng-En on 2018.
+//  Copyright © 2018 Li Cheng-En. All rights reserved.
 //
 
 #ifndef reverse_String_h
 #define reverse_String_h
 
 using namespace std;
+
+
 
 class reverseString {
 public:
@@ -26,5 +28,7 @@ string reverseString::functionOfReverseString(string originalString) {
     
     return resultString;
 }
+
+
 
 #endif /* reverse_String_h */

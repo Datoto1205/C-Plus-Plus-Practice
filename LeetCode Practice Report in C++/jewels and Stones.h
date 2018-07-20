@@ -1,13 +1,15 @@
-//
+
 //  jewels and Stones.h
 //  LeetCode Practice Report in C++
 //
-//  Created by 李政恩 on 17/07/2018.
-//  Copyright © 2018 李政恩. All rights reserved.
+//  Created by Li Cheng-En on 2018.
+//  Copyright © 2018 Li Cheng-En. All rights reserved.
 //
 
 #ifndef jewels_and_Stones_h
 #define jewels_and_Stones_h
+
+
 
 class JewelsInStones {
 public:

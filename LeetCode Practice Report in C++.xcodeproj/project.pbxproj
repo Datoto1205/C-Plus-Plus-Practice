@@ -26,6 +26,7 @@
 		1B1E64CC20FEBFC00024C769 /* judge Route Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "judge Route Circle.h"; sourceTree = "<group>"; };
 		1B1E64CD20FEC2C70024C769 /* reverse String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reverse String.h"; sourceTree = "<group>"; };
 		1B1E64CE20FEDD540024C769 /* add Two Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "add Two Number.h"; sourceTree = "<group>"; };
+		1B1E64CF21001D540024C769 /* two Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "two Sum.h"; sourceTree = "<group>"; };
 		1B27862F20FE314A005EAD4A /* Instruction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Instruction.h; sourceTree = "<group>"; };
 		1B27863020FE3668005EAD4A /* jewels and Stones.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jewels and Stones.h"; sourceTree = "<group>"; };
 		1B4DC68420FB8F1B00203782 /* LeetCode Practice Report in C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode Practice Report in C++"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +69,7 @@
 				1B1E64CC20FEBFC00024C769 /* judge Route Circle.h */,
 				1B1E64CD20FEC2C70024C769 /* reverse String.h */,
 				1B1E64CE20FEDD540024C769 /* add Two Number.h */,
+				1B1E64CF21001D540024C769 /* two Sum.h */,
 			);
 			path = "LeetCode Practice Report in C++";
 			sourceTree = "<group>";

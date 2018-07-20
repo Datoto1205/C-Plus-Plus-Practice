@@ -1,9 +1,9 @@
-//
+
 //  main.cpp
 //  LeetCode Practice Report in C++
 //
-//  Created by 李政恩 on 15/07/2018.
-//  Copyright © 2018 李政恩. All rights reserved.
+//  Created by Li Cheng-En on 2018.
+//  Copyright © 2018 Li Cheng-En. All rights reserved.
 //
 
 #include <iostream>
@@ -18,30 +18,14 @@
 #include "judge Route Circle.h"
 #include "reverse String.h"
 #include "add Two Number.h"
+#include "two Sum.h"
 
 using namespace std;
 
 
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        cout << nums[0];
-        return nums;
-    }
-};
 
-
-
-
-
-
-
-
-
-
-
-
-int main(int argc, const char * argv[]) {
+int main() {
+    freopen("output of LeetCode Practice Report in C++.txt", "w", stdout);
     printOutParagraphOne();
     
     int resultOfNumberOfJewels[3];
@@ -77,7 +61,6 @@ int main(int argc, const char * argv[]) {
     
     printOutParagraphBetweenQuestionThreeAndFour();
     
-    
     SumOfTwoNumber caseOfNumber;
     int inputIntegerDigitElementArrayOne[3] = {2, 4, 3};
     int inputIntegerDigitElementArrayTwo[3] = {5, 6, 4};
@@ -91,11 +74,12 @@ int main(int argc, const char * argv[]) {
     
     printOutParagraphBetweenQuestionFourAndFive();
     
+    vector<int> setOfIntegers;
+    setOfIntegers = {2, 7, 11, 15};
+    returnTwoNumber caseOfTwoNumber;
+    cout << (caseOfTwoNumber.twoSum(setOfIntegers, 9))[0] << ", " << (caseOfTwoNumber.twoSum(setOfIntegers, 9))[1] << endl;
     
-    
-    
-    
-    
+    printOutLastParagraph();
     
     return 0;
 }
