@@ -5,14 +5,14 @@
 //  Copyright © 2018 Li Cheng-En. All rights reserved.
 //
 //  ---------------------<Outline>---------------------
-//  Array of Character                         <Row >
-//  Declaration of Pointer                      <Row >
-//  Calculation of Pointer                      <Row >
-//  Array and Pointer                         <Row >
-//  New & Delete & Pointer                       <Row >
-//  STL idiom Vector                          <Row >
-//  Return                                   <Row >
-//  Import An Array                               <Row >
+//  Array of Character                         <Row 23>
+//  Declaration of Pointer                     <Row 57>
+//  Calculation of Pointer                     <Row 87>
+//  Array and Pointer                         <Row 104>
+//  New & Delete & Pointer                    <Row 127>
+//  STL idiom Vector                          <Row 150>
+//  Return                                    <Row 188>
+//  Import An Array                           <Row 217>
 
 #ifndef Medium_Practice_h
 #define Medium_Practice_h

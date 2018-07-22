@@ -5,8 +5,8 @@
 //  Copyright © 2018 Li Cheng-En. All rights reserved.
 //
 //  ---------------------<Outline>---------------------
-//  Auto PTR                            <Row >
-//  Enumeration                                  <Row >
+//  Auto PTR                                   <Row 17>
+//  Enumeration                                <Row 35>
 
 #ifndef Hard_Practice_h
 #define Hard_Practice_h
